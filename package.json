@@ -1,0 +1,12 @@
+{
+  "name": "api-webhook-integration-patterns",
+  "version": "1.0.0",
+  "description": "Reference implementations for the parts of an API/webhook integration that break: validation, field mapping, retries, idempotency, signature verification and redacting logs.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}
